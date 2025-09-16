@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gurleen - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: blue;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(163, 14, 180);
+            font-size: 1.04rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .first {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 120px 0;
+        }
+
+        .first>div {
+            width: 30%;
+
+        }
+
+        .LeftSection {
+
+            font-size: 3rem;
+        }
+
+        .LeftSection .btn{
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .RightSection img {
+            width: 90%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(241, 97, 121);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(241, 97, 121);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 50px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+
+        }
+
+        .image-top {
+            width: 150px;
+            position: relative top: -32px;
+            left: -9px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 70px;
+            color: gray;
+            width: 150px;
+            font-size: 15px;
+        }
+
+        .footer {
+            background-color: rgb(22, 6, 89);
+            text-align: center;
+        color: gray;
+        padding: 12px 0;
+            height: 233px;
+            
+        }
+        .text-center {
+            text-align: center;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Gurleen's Portfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first">
+            <div class="LeftSection">
+                Hi, My name is
+                <span class="purple">Gurleen Kaur</span>
+                <div>and I am an aspiring</div>
+                <div>Web developer</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume </button>
+                    <button class="btn">Visit Github</button>
+                </div>
+
+            </div>
+
+
+            <div class="RightSection">
+                <img src="bg.png" alt="">
+
+            </div>
+
+        </section>
+
+        <hr>
+
+
+        <section class="secondSection">
+            <span class="text-gray"> What I have done so far</span>
+            <h1>Past Achievements</h1>
+
+            <div class="box">
+
+                <div class="vertical">
+                    <img class="image-top" src="achievement.png" alt="">
+                    <div class="vertical-title">
+                        Co-writer in a takshila publication called PAPER BRIDGES (2019-2020)
+                    </div>
+                    <div class="vertical-desc">
+                        As a co-writer, I collaborated with fellow contributors to explore themes of identity and
+                        resillience.
+
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="Memento.webp" alt="">
+                    <div class="vertical-title">
+                        Memento Holder for Consecutive Excellent Academic PErformance for three Consequtive years
+                    </div>
+                    <div class="vertical-desc">
+                        This recognition means a lot to me. It’s A reminder that consistency beats intensity.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="OIP.webp" alt="">
+                    <div class="vertical-title">
+                        ONGOING LEARNING
+                    </div>
+                    <div class="vertical-desc">
+                        I'm currently learning C++ to strengthen my programming fundamentals, as well as exploring
+                        Open Source Intelligence.
+
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="trinity.webp" alt="">
+                    <div class="vertical-title">
+                        Trinity College London: Elocution Exams(2015-2019)
+                    </div>
+                    <div class="vertical-desc">
+                        Completed five consecutive years of graded elocution exams, focusing on articulation, vocal
+                        clarity, expression, and performance. </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="toastmasters-logo-for-main-image.png" alt="">
+                    <div class="vertical-title">
+                        - Toastmasters International – CC10 Badge
+
+
+                    </div>
+                    <div class="vertical-desc">
+                        Successfully delivered 10 structured speeches as part of the Competent Communicator track,
+                        and was Awarded a badge by Toastmasters International in
+                        recognition of the achievement.
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Gurleen's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+            Gurleen is a First Year student of Robotics and Automation in Symbiosis institue of technology 
+           </div>
+           <div class="empty">-----------------------------------------------------------------</div>
+            <div class="footer-third">
+            CONTACT INFORMATION : 
+            </div>
+            <div class="footer-fourth">
+            EMAIL ID: gurleen.kaur.btech2025@sitpune.edu.in
+            </div>
+            <div class="footer-fifth">Phone Number: 8530555678</div>
+            <div class="empty">-----------------------------------------------------------------</div>
+            
+            <div class="text-center">
+                Copyright &#169 www.gurleenportfolio.com | All rights reserved
+            </div>
+        </div>
+    
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['First Year Student', 'Robotics and Automation Major', 'At Symbiosis Institue Of Technology'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
